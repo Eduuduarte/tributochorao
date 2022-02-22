@@ -100,3 +100,32 @@ ul li:hover{
     justify-content: center;
     height: 600px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    flex-direction: column;
+    align-items: center;
+}
+.rodape_texto{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.autor{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#linha2{
+    display: flex;
+    justify-content: center;
+    height: 3px;
+}
+#linha2 .container{
+    background-color: #363636;
+}
