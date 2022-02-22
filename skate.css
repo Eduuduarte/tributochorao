@@ -87,7 +87,14 @@ ul li:hover{
 .nome h2{
     color: white;
 }
-
+#linha{
+    display: flex;
+    justify-content: center;
+    height: 3px;
+}
+#linha .container{
+    background-color: #363636;
+}
 #comeco{
     display: flex;
     justify-content: center;
